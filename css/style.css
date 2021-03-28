@@ -6,8 +6,171 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    width: 75%;
-    padding: 0 auto;
-    background-color: aqua;
-    height: 100vh;
+    color: #33475B;
 }
+
+.container_75 {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.caret_down {
+    margin-left: 3px;
+}
+
+a {
+    color: #33475B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+#btn_orange-small {
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #FF7A59;
+}
+#btn_orange-small:hover {
+    opacity: 0.5;
+}
+
+#btn_white {
+    color: #FF7A59;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #FF7A59;
+}
+#btn_white:hover {
+    opacity: 0.5;
+}
+
+#lent {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.btn_orange {
+    line-height: 48px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 16px 28px;
+    border-radius: 5px;
+    background-color: #FF7A59;
+}
+.btn_orange:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+
+
+h1 {
+    color: #33475B;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.getstarted-text{
+    font-size: 12px;
+    margin: 25px 0px;
+}
+
+/* /COMMON */
+
+/* BANNER LOGIN */
+.page-bar {
+    height: 70px;
+    font-size: 14px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #F5F8FA;
+    border-bottom: 1px solid #33475B;
+}
+
+.banner_fixed {
+
+}
+
+#language {
+    padding-right: 20px;
+    border-right: 1px solid #33475B;
+}
+
+#contact_us {
+    margin-left: 20px;
+}
+
+
+/* /BANNER LOGIN */
+
+/* jumbotron */
+nav {
+    height: 70px;
+    font-size: 14px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.list-inline > li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+
+}
+
+#logo-img {
+    margin: 18% 0px;
+}
+
+#jumbotron {
+    height: 588px;
+    background-size: 75%;
+    background-position-x: right;
+    background-position-y: -20px;
+    background-image: url(../img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-color: #FFF6F0;
+}
+
+#jumbo-box {
+    padding: 5% 55% 0 0;
+}
+
+#page-bar-green {
+    height: 70px;
+    border-width: 3px 0px;
+    border-style: solid;
+    border-color: #33475B;
+    background-color: #AFEBE4;
+}
+
+#jumbo-box > p {
+    padding: 30px 0 30px 0;
+}
+
+
+/* /jumbotron */
