@@ -192,14 +192,15 @@ nav {
 }
 
 #img-motto {
-    height: 55%;
+    height: 60%;
     padding-top: 30px;
 }
-
 .crm {
     padding: 60px 10px;
     height: 280px;
-    box-shadow: 0px 0px 7px 0px lightgrey; 
+    box-shadow: 0px 0px 7px 0px lightgrey;
+    margin: 20px 0;
+    background-color: white;
 }
 .column-left {
     width: 30%;
@@ -208,13 +209,13 @@ nav {
 }
 
 .icon {
-
-    width: 110px;
+    
+    width: 25%;
     margin-bottom: 20px;
 }
 
 h5 {
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 h4 {
@@ -227,7 +228,6 @@ h4 {
 
 .checkmark {
     vertical-align: middle;
-    line-height: 50px;
     font-size: 6px;
     color: white;
     padding: 4px;
@@ -237,3 +237,30 @@ h4 {
     margin-right: 10px;
 }
 /* /SPOT E CRM */
+
+
+.container-box {
+    margin: 30px 0;
+    background-color: white;
+    width: calc(30% - 10px);
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px lightgrey;
+    padding: 15px 25px;
+}
+
+.container-box.float-left {
+    margin-right: 6%;
+}
+
+.hr_box {
+    margin: 40px 0 0 0;
+    border: 0.5px solid #33475B;
+}
+
+.inblock-list {
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 40px;
+}
