@@ -103,6 +103,14 @@ h3 {
     margin-bottom: 20px;
 }
 
+h4 {
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin: 25px 0;
+}
+
 .getstarted-text{
     font-size: 12px;
     margin: 25px 0px;
@@ -199,7 +207,6 @@ nav {
 }
 .crm {
     padding: 60px 10px;
-    height: 280px;
     box-shadow: 0px 0px 7px 0px lightgrey;
     margin: 20px 0;
     background-color: white;
@@ -216,17 +223,10 @@ nav {
 
 .icon {
     
-    width: 25%;
+    height: 100px;
     margin-bottom: 20px;
 }
 
-h5 {
-    margin: 25px 0;
-}
-
-h4 {
-    margin-bottom: 20px;
-}
 
 #hr-crm {
     display: inline;
@@ -269,4 +269,34 @@ h4 {
     list-style: none;
     text-decoration: none;
     padding-bottom: 40px;
+}
+/* /CRM E HUBS */
+
+#awards_section {
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+    background-color: tomato;
+}
+
+.table {
+    margin: 30px 0;
+}
+
+.box:not(last-child) {
+    border-right: 1px solid white;
+}
+
+.first-row > .box {
+    border-bottom: 1px solid white;
+}
+
+.box {
+    width: 25%;
+    padding: 10px 20px;
+}
+
+.mini-icon {
+    height: 20px;
+    margin: 10px;
 }
