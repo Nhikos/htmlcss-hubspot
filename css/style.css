@@ -73,6 +73,7 @@ a:hover {
 }
 
 #lent {
+    color: #13ABC2;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -94,26 +95,32 @@ a:hover {
 
 
 h1 {
+    font-weight: 800;
     color: #33475B;
     font-size: 50px;
     line-height: 45px;
 }
 
 h3 {
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
 h4 {
+    font-weight: 800;
     margin-bottom: 20px;
 }
 
 h5 {
+    font-weight: 700;
+    display: inline-block;
     margin: 25px 0;
 }
 
 .getstarted-text{
+    display: inline-block;
     font-size: 12px;
-    margin: 25px 0px;
+    margin: 12px 0px 8px;
 }
 
 /* /COMMON */
@@ -206,7 +213,7 @@ nav {
     padding-top: 30px;
 }
 .crm {
-    padding: 60px 10px;
+    padding: 42px 10px;
     box-shadow: 0px 0px 7px 0px lightgrey;
     margin: 20px 0;
     background-color: white;
@@ -227,16 +234,24 @@ nav {
     margin-bottom: 20px;
 }
 
+hr {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #33475B;
+    opacity: 0.7;
+    vertical-align: middle;
+}
 
-#hr-crm {
-    display: inline;
+#hr_crm {
+    margin-left: 50px;
+    width: 70%;
 }
 
 .checkmark {
     vertical-align: middle;
-    font-size: 6px;
+    font-size: 10px;
     color: white;
-    padding: 4px;
+    padding: 2px;
     background-color: coral;
     border: 1px solid orange;
     border-radius: 50%;
@@ -276,14 +291,15 @@ nav {
     text-align: center;
     color: white;
     padding: 30px 0;
-    background-color: tomato;
+    background: rgb(0,171,183);
+    background: linear-gradient(90deg, rgba(0,171,183,1) 0%, rgba(0,189,165,1) 100%);
 }
 
 .table {
     margin: 30px 0;
 }
 
-.box:not(last-child) {
+.box:not(:nth-child(4)) {
     border-right: 1px solid white;
 }
 
@@ -297,6 +313,6 @@ nav {
 }
 
 .mini-icon {
-    height: 20px;
-    margin: 10px;
+    height: 22px;
+    margin: 7px 0 5px 0;
 }
