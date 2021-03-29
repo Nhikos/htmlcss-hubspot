@@ -147,9 +147,11 @@ nav {
 .list-inline > li {
     line-height: 50px;
     display: inline-block;
-    margin-right: 20px;
     list-style: none;
+}
 
+.list-inline > li:not(:last-child) {
+    padding-right: 20px;
 }
 
 #logo-img {
@@ -253,7 +255,7 @@ h4 {
     padding: 15px 25px;
 }
 
-.container-box.float-left {
+.container-box.float-left:not(last-child) {
     margin-right: 6%;
 }
 
