@@ -33,9 +33,6 @@ body {
     margin-left: 3px;
 }
 
-#white-bar {
-    background-color: white;
-}
 
 a {
     color: #33475B;
@@ -96,6 +93,15 @@ a:hover {
     opacity: 0.5;
 }
 
+.first-row {
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.second-row {
+    line-height: 20px;
+    vertical-align: middle;
+}
 
 h1 {
     font-weight: 800;
@@ -134,23 +140,37 @@ h4 {
 .column-right {
     width: 60%;
 }
+
+.p_vmargin20 {
+    margin: 20px 0;
+}
+
+.p_vmargin30 {
+    margin: 30px 0;
+}
 /* /COMMON */
 
 /* BANNER LOGIN */
 .page-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 70px;
     font-size: 14px;
     line-height: 70px;
     text-align: center;
     background-color: #F5F8FA;
+    opacity: 1;
     border-bottom: 1px solid #33475B;
+    z-index: 1;
 }
 
-.banner_fixed {
-
+#white-bar {
+    margin-top: 70px;
+    background-color: white;
 }
 
-#language {
+#select_language {
     padding-right: 20px;
     border-right: 1px solid #33475B;
 }
@@ -282,20 +302,24 @@ hr {
     border: 0.5px solid #33475B;
 }
 
-.inblock-list {
-    text-align: left;
-    list-style: none;
-    text-decoration: none;
-    padding-bottom: 40px;
+col li {
+    margin-bottom: 0;
 }
+
+.hub_list {
+    display: block;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
 /* /CRM E HUBS */
 
 #awards_section {
     text-align: center;
     color: white;
     padding: 30px 0;
-    background: rgb(0,171,183);
-    background: linear-gradient(90deg, rgba(0,171,183,1) 0%, rgba(0,189,165,1) 100%);
+    background: rgb(0,169,184);
+    background: linear-gradient(90deg, rgba(0,169,184,1) 0%, rgba(0,169,184,1) 58%, rgba(0,183,171,1) 100%);
 }
 
 .stats {
@@ -317,13 +341,18 @@ hr {
 
 .mini-icon {
     height: 22px;
-    margin: 7px 0 5px 0;
+    margin: 7px 0 18px 0;
 }
-
 /* /SEZIONE AWARDS */
+
+/* SEZIONE PARTNERS */
 #partners  {
     width: 50%;
     margin: 30px auto;
+}
+
+#partners .column-left {
+    width: 20%;
 }
 
 #partners_number {
@@ -335,19 +364,9 @@ hr {
 
 .partners_logo {
     transform: translate(0%, 50%);
-    width: 102px;
+    width: 120px;
     padding: 0px 10px;
     text-align: center;
-}
-
-.first-row {
-    line-height: 20px;
-    vertical-align: middle;
-}
-
-.second-row {
-    line-height: 20px;
-    vertical-align: middle;
 }
 
 #adv_section {
@@ -359,14 +378,75 @@ hr {
     width: 42%;
 }
 
-.p_vmargin20 {
-    margin: 20px 0;
-}
-
-.p_vmargin30 {
-    margin: 30px 0;
-}
-
 .adv-img {
     width: 266px;
+}
+/* /SEZIONE PARTNERS */
+
+/* FOOTER */
+
+footer {
+    background-color: #2D3E50;
+    padding: 25px 0;
+    color: white;
+}
+
+footer a {
+    font-size: 11px;
+    color: #c7d2de
+}
+
+.block-list {
+    font-size: 12px;
+    list-style: none;
+    width: 22%;
+}
+
+.block-list > li:first-child {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+.btn_white {
+    line-height: 35px;
+    font-size: 12px;
+    color: #2D3E50;
+    text-decoration: none;
+    padding: 8px 8px;
+    border-radius: 5px;
+    background-color: #c7d2de;
+}
+
+.social-icon {
+    height: 12px;
+    margin: 15px 20px 0 0;
+}
+
+.languages {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.languages > a {
+    margin: 15px 15px;
+}
+
+footer hr {
+    border: 0.5px solid #c7d2de;
+    opacity: 0.7;
+    margin: 5px 0 25px;
+}
+
+#copyright {
+    color: white;
+    font-size: 14px;
+}
+
+.sign a {
+    margin-left: 25px;
 }
